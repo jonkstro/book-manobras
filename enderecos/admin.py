@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from enderecos.models import Enderecos
+
+
+admin.site.register(Enderecos)

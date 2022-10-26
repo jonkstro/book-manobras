@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from manobras.models import Manobras
+
+
+admin.site.register(Manobras)
